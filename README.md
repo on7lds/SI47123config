@@ -10,11 +10,11 @@ I used the Adafruit Stereo FM Transmitter with RDS/RBDS Breakout (https://www.ad
 wired as follows :
 | Pi   | Breakout  |
 | ---- | --------- |
-|3V3   | sensor VIN|
-|GND   | sensor GND|
-|SCL   | sensor SCL|
-|SDA   | sensor SDA|
-|GPIO5 | sensor RST|
+|3V3   |     VIN   |
+|GND   |     GND   |
+|SCL   |     SCL   |
+|SDA   |     SDA   |
+|GPIO5 |     RST   |
 
 And wire LIN and RIN to some audio (I used the RPi 3.5mm audio out).
 
